@@ -1,6 +1,6 @@
 {
     "name": "expressive-swagger",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Takes usage of the decorator syntax in Typescript to collect and serve swagger documentation for an API.",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
