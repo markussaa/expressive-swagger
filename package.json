@@ -1,0 +1,28 @@
+{
+    "name": "expressive-swagger",
+    "version": "0.0.1",
+    "description": "Takes usage of the decorator syntax in Typescript to collect and serve swagger documentation for an API.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markussaa/expressive-swagger.git"
+    },
+    "author": "Markus Saarijärvi",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/markussaa/expressive-swagger/issues"
+    },
+    "homepage": "https://github.com/markussaa/expressive-swagger#readme",
+    "dependencies": {
+        "swagger-ui-express": "^5.0.0",
+        "tsc": "^2.0.4"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "tsup": "^7.2.0",
+        "typescript": "^5.2.2"
+    }
+}
