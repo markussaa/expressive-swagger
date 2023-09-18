@@ -4,6 +4,7 @@
         "module": "commonjs",
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "noEmit": true
+        "noEmit": true,
+        "esModuleInterop": true
     }
 }
